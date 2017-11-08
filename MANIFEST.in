@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include candidate_registration *.css
+recursive-include candidate_registration *.csv
+recursive-include candidate_registration *.html
+recursive-include candidate_registration *.ico
+recursive-include candidate_registration *.js
+recursive-include candidate_registration *.json
+recursive-include candidate_registration *.md
+recursive-include candidate_registration *.png
+recursive-include candidate_registration *.py
+recursive-include candidate_registration *.svg
+recursive-include candidate_registration *.txt
+recursive-exclude candidate_registration *.pyc
